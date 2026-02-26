@@ -43,9 +43,10 @@ def main():
     argv = sys.argv[1:]
     for n in argv:
         my_list = extract_name(n)
-        google = "\n".join(my_list) + "\n"
-        print(google)
+        summary = "\n".join(my_list) + "\n"
+        print(summary)
 
 if __name__ == '__main__':
     #This means "only run `main()` if this file is being run directly, not imported by another file.
     main()
+
